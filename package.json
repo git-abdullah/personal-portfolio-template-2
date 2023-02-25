@@ -10,5 +10,8 @@
   "license": "MIT",
   "dependencies": {
     "tailwindcss": "^3.2.7"
+  },
+  "devDependencies": {
+    "tailwindcss-animate": "^1.0.5"
   }
 }
