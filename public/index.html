@@ -9,34 +9,50 @@
     <title>Welcome</title>
 </head>
 <body>
-    <div class="p-0 m-0">
-        <!-- slide one, contains navbar and hero -->
-        <div class=" bg-primary-60">
-            <!-- navbar goes here -->
-            <nav class="py-5 px-16 flex justify-end">
-                <ul class="m-0 p-0 flex">
+    <div class="min-h-screen flex bg-primary-60">
+        <div class="w-16 px-5 py-3 flex flex-col justify-between bg-primary-30 bg-opacity-5">
+            <!-- main nav links -->
+            <nav class="">
+                <ul class="m-0 p-0">
                     <li>
-                        <img class="mx-1 hover:animate-pulse hover:duration-1000" src="img/icons/git.svg" height="24" width="24" alt="">
+                        <img class="mb-10 mt-5 hover:animate-pulse hover:duration-1000" src="img/icons/home.svg" height="24" width="24" alt="">
                     </li>
                     <li>
-                        <img class="mx-1 hover:animate-pulse hover:duration-1000" src="img/icons/twitter.svg" height="24" width="24" alt="">
+                        <img class="mb-10 hover:animate-pulse hover:duration-1000" src="img/icons/skills.svg" height="24" width="24" alt="">
                     </li>
                     <li>
-                        <img class="mx-1 hover:animate-pulse hover:duration-1000" src="img/icons/linkedin.svg" height="24" width="24" alt="">
+                        <img class="mb-10 hover:animate-pulse hover:duration-1000" src="img/icons/showcase.svg" height="24" width="24" alt="">
+                    </li>
+                    <li>
+                        <img class="mb-10 hover:animate-pulse hover:duration-1000" src="img/icons/contact.svg" height="24" width="24" alt="">
                     </li>
                 </ul>
             </nav>
-            <!-- intro/hero goes here -->
-            <div class="flex flex-col gap-10 px-16 py-3">
-                <div class="rounded-lg p-5 bg-primary-30 bg-opacity-5">
-                    <h1 class="text-primary-30 text-4xl font-extrabold">Voluptates</h1>
-                    <p class="text-gray-300 text-lg font-light">obcaecati quisquam voluptatum! Voluptates?</p>
-
-                    <h1 class="text-primary-30 text-3xl font-light pt-5">About Me:</h1>
-                    <p class="text-gray-300 text-lg font-extralight">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et porro quaerat unde maiores incidunt, quisquam odit necessitatibus ipsum esse iste sunt eos officia vel. Numquam blanditiis provident quidem animi quas.</p>
+            <!-- social icons -->
+            <nav class="">
+                <ul class="m-0 p-0">
+                    <li>
+                        <img class="my-2 hover:animate-pulse hover:duration-1000" src="img/icons/git.svg" height="24" width="24" alt="">
+                    </li>
+                    <li>
+                        <img class="my-2 hover:animate-pulse hover:duration-1000" src="img/icons/twitter.svg" height="24" width="24" alt="">
+                    </li>
+                    <li>
+                        <img class="my-2 hover:animate-pulse hover:duration-1000" src="img/icons/linkedin.svg" height="24" width="24" alt="">
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <main class="flex-1 min-w-0 overflow-auto bg-main-bg bg-fixed">
+            <!-- intro here -->
+            <div class="flex justify-center h-screen items-center">
+                <div class="mr-96">
+                    <h1 class="text-7xl text-primary-30 font-extrabold mb-5">Abdullah</h1>
+                    <p class="text-2xl text-gray-300 font-light">I'm a developer.</p>
                 </div>
             </div>
-        </div>
-    </div>
+        </main>
+      </div>
+     
 </body>
 </html>
