@@ -9,50 +9,59 @@
     <title>Welcome</title>
 </head>
 <body>
-    <div class="min-h-screen flex bg-primary-60">
-        <div class="w-16 px-5 py-3 flex flex-col justify-between bg-primary-30 bg-opacity-5">
-            <!-- main nav links -->
-            <nav class="">
-                <ul class="m-0 p-0">
-                    <li>
-                        <img class="mb-10 mt-5 hover:animate-pulse hover:duration-1000" src="img/icons/home.svg" height="24" width="24" alt="">
-                    </li>
-                    <li>
-                        <img class="mb-10 hover:animate-pulse hover:duration-1000" src="img/icons/skills.svg" height="24" width="24" alt="">
-                    </li>
-                    <li>
-                        <img class="mb-10 hover:animate-pulse hover:duration-1000" src="img/icons/showcase.svg" height="24" width="24" alt="">
-                    </li>
-                    <li>
-                        <img class="mb-10 hover:animate-pulse hover:duration-1000" src="img/icons/contact.svg" height="24" width="24" alt="">
-                    </li>
-                </ul>
-            </nav>
-            <!-- social icons -->
-            <nav class="">
-                <ul class="m-0 p-0">
-                    <li>
-                        <img class="my-2 hover:animate-pulse hover:duration-1000" src="img/icons/git.svg" height="24" width="24" alt="">
-                    </li>
-                    <li>
-                        <img class="my-2 hover:animate-pulse hover:duration-1000" src="img/icons/twitter.svg" height="24" width="24" alt="">
-                    </li>
-                    <li>
-                        <img class="my-2 hover:animate-pulse hover:duration-1000" src="img/icons/linkedin.svg" height="24" width="24" alt="">
-                    </li>
-                </ul>
-            </nav>
+    <div class="bg-main-bg bg-cover min-h-screen">
+        <div class="flex justify-between p-3">
+            <header class="flex items-center">
+                <div class="rounded-full shadow-md shadow-primary-10 overflow-hidden bg-gradient-to-br from-primary-60 to-primary-30">
+                    <img src="img/ReadyPlayerMe-Avatar.png" height="40" width="40" alt="">
+                </div>
+            </header>
+            <header class="flex justify-start">
+                <nav class="py-3 bg-primary-30 bg-opacity-5 rounded-lg flex justify-center">
+                    <ul class="flex">
+                        <li>
+                            <img class="mx-5 hover:animate-pulse hover:duration-1000" src="img/icons/home.svg" height="24" width="24" alt="">
+                        </li>
+                        <li>
+                            <img class="mx-5 hover:animate-pulse hover:duration-1000" src="img/icons/skills.svg" height="24" width="24" alt="">
+                        </li>
+                        <li>
+                            <img class="mx-5 hover:animate-pulse hover:duration-1000" src="img/icons/showcase.svg" height="24" width="24" alt="">
+                        </li>
+                        <li>
+                            <img class="mx-5 hover:animate-pulse hover:duration-1000" src="img/icons/contact.svg" height="24" width="24" alt="">
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+            <header class="flex">
+                <!-- social icons -->
+                <nav class="py-3 bg-primary-30 bg-opacity-5 w-32 rounded-lg flex justify-center">
+                    <ul class="flex">
+                        <li>
+                            <img class="mx-2 hover:animate-pulse hover:duration-1000" src="img/icons/git.svg" height="24" width="24" alt="">
+                        </li>
+                        <li>
+                            <img class="mx-2 hover:animate-pulse hover:duration-1000" src="img/icons/twitter.svg" height="24" width="24" alt="">
+                        </li>
+                        <li>
+                            <img class="mx-2 hover:animate-pulse hover:duration-1000" src="img/icons/linkedin.svg" height="24" width="24" alt="">
+                        </li>
+                    </ul>
+                </nav>
+            </header>
         </div>
-        <main class="flex-1 min-w-0 overflow-auto bg-main-bg bg-cover">
-            <!-- intro here -->
-            <div class="flex justify-center h-screen items-center">
-                <div class="mr-96">
-                    <h1 class="text-7xl text-primary-30 font-extrabold mb-5">Abdullah</h1>
-                    <p class="text-2xl text-gray-300 font-light">I'm a developer.</p>
+        <main class="flex justify-center">
+            <div class="text-center py-20">
+                <h1 class="text-4xl font-extrabold text-primary-30">no-one.</h1>
+                <h1 class="text-xl font-bold text-gray-400">High-end Front End Designing and Development</h1>
+                <p class="text-gray-300 font-light">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem libero architecto possimus, non tempora similique dolorum veritatis mollitia quibusdam nisi, consequuntur qui dolores hic rerum fugit. Quibusdam quia magnam totam!</p>
+                <div class="flex gap-5 justify-center py-8">
+                    <button class="bg-primary-10 py-5 px-6 rounded-lg font-semibold bg-opacity-25 text-white hover:bg-opacity-20 flex">Work with me <img class="ml-2" src="img/icons/handshake.svg" height="24" width="24" alt=""></button>
+                    <button class="bg-primary-30 py-5 px-6 rounded-lg bg-opacity-25 text-white flex">Learn More!<img class="ml-2" src="img/icons/arrow-down.svg" height="24" width="24" alt=""></button>
                 </div>
             </div>
         </main>
-      </div>
-     
+    </div>
 </body>
 </html>
