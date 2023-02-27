@@ -9,14 +9,14 @@
     <title>Welcome</title>
 </head>
 <body>
-    <div class="bg-main-bg bg-cover min-h-screen">
-        <div class="flex justify-between p-3">
-            <header class="flex items-center">
+    <div class="bg-main-bg bg-cover">
+        <div class="flex flex-none justify-between gap-5 p-5 px-32">
+            <div class="flex flex-none items-center">
                 <div class="rounded-full shadow-md shadow-primary-10 overflow-hidden bg-gradient-to-br from-primary-60 to-primary-30">
                     <img src="img/ReadyPlayerMe-Avatar.png" height="40" width="40" alt="">
                 </div>
-            </header>
-            <header class="flex justify-start">
+            </div>
+            <div class="flex flex-none justify-start">
                 <nav class="py-3 bg-primary-30 bg-opacity-5 rounded-lg flex justify-center">
                     <ul class="flex">
                         <li>
@@ -33,8 +33,8 @@
                         </li>
                     </ul>
                 </nav>
-            </header>
-            <header class="flex">
+            </div>
+            <div class="flex flex-none">
                 <!-- social icons -->
                 <nav class="py-3 bg-primary-30 bg-opacity-5 w-32 rounded-lg flex justify-center">
                     <ul class="flex">
@@ -49,16 +49,59 @@
                         </li>
                     </ul>
                 </nav>
-            </header>
+            </div>
         </div>
-        <main class="flex justify-center">
-            <div class="text-center py-20">
+        <main class="flex flex-col justify-center items-center px-10">
+            <!-- intro -->
+            <div class="flex flex-col justify-center items-center text-center py-20">
                 <h1 class="text-4xl font-extrabold text-primary-30">no-one.</h1>
                 <h1 class="text-xl font-bold text-gray-400">High-end Front End Designing and Development</h1>
-                <p class="text-gray-300 font-light">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem libero architecto possimus, non tempora similique dolorum veritatis mollitia quibusdam nisi, consequuntur qui dolores hic rerum fugit. Quibusdam quia magnam totam!</p>
+                <p class="text-gray-300 font-light max-w-lg">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem libero architecto possimus, non tempora similique dolorum veritatis mollitia quibusdam nisi, consequuntur qui dolores hic rerum fugit. Quibusdam quia magnam totam!</p>
                 <div class="flex gap-5 justify-center py-8">
-                    <button class="bg-primary-10 py-5 px-6 rounded-lg font-semibold bg-opacity-25 text-white hover:bg-opacity-20 flex">Work with me <img class="ml-2" src="img/icons/handshake.svg" height="24" width="24" alt=""></button>
-                    <button class="bg-primary-30 py-5 px-6 rounded-lg bg-opacity-25 text-white flex">Learn More!<img class="ml-2" src="img/icons/arrow-down.svg" height="24" width="24" alt=""></button>
+                    <button class="flex-none bg-primary-10 py-5 px-6 rounded-lg font-semibold bg-opacity-25 text-white hover:bg-opacity-20 flex">Work with me <img class="ml-2" src="img/icons/handshake.svg" height="24" width="24" alt=""></button>
+                    <button class="flex-none bg-primary-30 py-5 px-6 rounded-lg bg-opacity-25 text-white flex">Learn More!<img class="ml-2" src="img/icons/arrow-down.svg" height="24" width="24" alt=""></button>
+                </div>
+            </div>
+            <!-- why me? section -->
+            <div class="flex flex-col gap-5 my-10 max-w-2xl items-center">
+                <div class="pb-10">
+                    <h1 class="text-4xl font-extrabold text-primary-30 text-center">Why me?</h1>
+                </div>
+                <div class="">
+                    <div class="flex gap-5 bg-primary-30 bg-opacity-5 rounded-lg p-8">
+                        <img src="img/design.svg" height="250" width="250" alt="">
+                        <div>
+                            <h3 class="text-xl text-primary-30 font-bold">Appealing Design</h3>
+                            <p class="font-light text-gray-300">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit accusantium, ullam deleniti quasi architecto numquam. Placeat ratione quae quia labore nihil itaque ullam ex! Sint quas quam doloremque distinctio adipisci.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="flex gap-5 bg-primary-30 bg-opacity-5 rounded-lg p-8">
+                        <div>
+                            <h3 class="text-xl text-primary-30 font-bold">Responsive</h3>
+                            <p class="font-light text-gray-300">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit accusantium, ullam deleniti quasi architecto numquam. Placeat ratione quae quia labore nihil itaque ullam ex! Sint quas quam doloremque distinctio adipisci.</p>
+                        </div>
+                        <img src="img/responsive.svg" height="250" width="250" alt="">
+                    </div>
+                </div>
+                <div class="">
+                    <div class="flex gap-5 bg-primary-30 bg-opacity-5 rounded-lg p-8">
+                        <img src="img/coder.svg" height="250" width="250" alt="">
+                        <div>
+                            <h3 class="text-xl text-primary-30 font-bold">Well Coded</h3>
+                            <p class="font-light text-gray-300">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit accusantium, ullam deleniti quasi architecto numquam. Placeat ratione quae quia labore nihil itaque ullam ex! Sint quas quam doloremque distinctio adipisci.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="flex gap-5 bg-primary-30 bg-opacity-5 rounded-lg p-8">
+                        <div>
+                            <h3 class="text-xl text-primary-30 font-bold">Postive Reviews</h3>
+                            <p class="font-light text-gray-300">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit accusantium, ullam deleniti quasi architecto numquam. Placeat ratione quae quia labore nihil itaque ullam ex! Sint quas quam doloremque distinctio adipisci.</p>
+                        </div>
+                        <img src="img/clients.svg" height="250" width="250" alt="">
+                    </div>
                 </div>
             </div>
         </main>
