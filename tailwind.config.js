@@ -8,9 +8,6 @@ module.exports = {
         'primary-10': '#FFD369',
         'primary-30': '#EEEEEE'
       },
-      backgroundImage: {
-        'main-bg': "url('../img/icons/bg-3.svg')",
-      }
     },
   },
   plugins: [
